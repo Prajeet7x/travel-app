@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.nav-bar {
+    width: 550px;
+    margin: 0 auto;
+    height: 50px;
+    background-color: #F55A5A;
+    margin-bottom: 45px;
+}
+
+.nav-bar-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.card-container-flex {
+    display: flex;
+    width: 550px;
+    /* border: solid 1px black; */
+    margin: 0 auto;
+    height: 170px;
+}
+
+.flex-left-cont {
+    /* width: 168px; */
+    margin-right: 19px;
+    /* width: 40%; */
+    /* border: solid 1px blue; */
+}
+
+.destination-image {
+    width: 125px;
+    height: 168px;
+    margin-left: 40px;
+    /* border: solid 1px green; */
+}
+
+.flex-right-cont {
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+
+    justify-content: space-evenly;
+    /* border: solid 1px red;    */
+}
+
+.country-title {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    text-transform: capitalize;
+    color: #2B283A;
+}
+
+.country-flex-cont {
+    display: flex;
+}
+
+.google-maps-link {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+    margin-left: 12px;
+    text-decoration-line: underline;
+
+    color: #918E9B;
+}
+
+.destination-title-cont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2B283A;
+}
+
+.date-cont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2B283A;
+}
+
+.description-cont {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #2B283A;
+}
+
+.horizontal-line {
+position: relative; 
+    height: 0px;
+    width: 478px;
+    top: 18px;
+    margin: 0 auto;
+    border: 1px solid #F5F5F5;
+    margin-bottom: 40px;
+}
