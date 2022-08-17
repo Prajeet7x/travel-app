@@ -42,6 +42,8 @@
     width: 125px;
     height: 168px;
     margin-left: 40px;
+    border-radius: 5px;
+    background-size: cover;
     /* border: solid 1px green; */
 }
 
@@ -114,7 +116,7 @@
 }
 
 .horizontal-line {
-position: relative; 
+    position: relative;
     height: 0px;
     width: 478px;
     top: 18px;
